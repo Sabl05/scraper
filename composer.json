@@ -1,0 +1,19 @@
+{
+    "name": "sabl/scraper",
+    "autoload": {
+        "psr-4": {
+            "Sabl\\Scraper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "abylaihan",
+            "email": "abylaihan@pingocean.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "symfony/dom-crawler": "^6.3",
+        "symfony/css-selector": "^6.3"
+    }
+}
